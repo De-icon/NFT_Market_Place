@@ -8,7 +8,9 @@ export default function RegisterLayout({
     children: React.ReactNode;
 }) {
     return (
+<>
         {children}
         <h1> Footer </h1>
+</>
     )
 }

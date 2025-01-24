@@ -10,7 +10,6 @@ export default function RegisterLayout({
     return (
 <>
         {children}
-        <h1> Footer </h1>
 </>
     )
 }

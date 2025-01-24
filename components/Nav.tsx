@@ -75,7 +75,7 @@ export default function Nav() {
   );
 
   return (
-    <div className="w-full">
+    <div className="w-full sticky">
       <div className="w-full p-7">
         <div className="flex flex-row items-center justify-between">
           <Link href="/"><Image className="w-52 cursor-pointer" src={Logo} alt="Logo" /></Link>

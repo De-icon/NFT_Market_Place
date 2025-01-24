@@ -8,7 +8,7 @@ import Image from "next/image";
 
 
 export default function TrendingCollection() {
-const [cards, setCards] = useState([1, 2, 3])
+const [cards, ] = useState([1, 2, 3])
 
   return (
     <div className=' mt-20 w-full'>

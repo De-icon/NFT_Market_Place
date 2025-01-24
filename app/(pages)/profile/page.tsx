@@ -1,8 +1,10 @@
-export default function profile() {
-    return (
-      <>
-        <h1>profile</h1>
-        
-      </>
-    );
-  }
+import Profile from '@/components/profile';
+
+export default function Profilepage() {
+
+  return (
+    <div>
+      <Profile/>
+    </div>
+  )
+}

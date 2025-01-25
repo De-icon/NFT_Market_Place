@@ -7,6 +7,81 @@ import {RocketLaunch} from "@/assets/img/icons/index"
 import Image from "next/image";
 
 
+export const cardss = [
+    {
+        name: "MoonDancer",
+        image: Avatar1,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar2,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar3,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar4,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar5,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar6,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar7,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar8,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar9,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar10,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar1,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        name: "MoonDancer",
+        image: Avatar2,
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+]
+
 export default function TopCreators() {
 
     const [cards] = useState([1,2,3,4,5,6,7,8,9,10,11,12]);
@@ -36,80 +111,7 @@ export default function TopCreators() {
     }, [cards.length]);
     
 
-    const cardss = [
-        {
-            name: "MoonDancer",
-            image: Avatar1,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar2,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar3,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar4,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar5,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar6,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar7,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar8,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar9,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar10,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar1,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-        {
-            name: "MoonDancer",
-            image: Avatar2,
-            price: "1.63 ETH",
-            highestBid: "0.33 wETH",
-        },
-    ]
+    
 
 
   return (

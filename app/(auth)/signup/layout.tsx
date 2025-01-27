@@ -17,6 +17,7 @@ export default function SignupLayout({
           {children}
         </main>
         
+        
         <footer className="text-center text-sm text-gray-500">
           <p>Your gateway to exclusive digital assets</p>
         </footer>

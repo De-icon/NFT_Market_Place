@@ -89,28 +89,28 @@ export default function Ranking() {
           <p className="font-SpaceMono mt-5">Check out top ranking NFT artists on the NFT Marketplace</p>
         </div>
 
-        <div className="w-full py-5 px-10 flex justify-between items-center mt-10 border-2 rounded-3xl border-gray-400">
-          <div className="flex gap-10">
+        <div className="w-full py-2 md:gap-24 px-5 md:px-10 flex justify-between items-center mt-10 border-2 rounded-3xl border-gray-400">
+          <div className="flex gap-1 md:gap-10">
             <p className="text-gray-400 items-center">#</p>
             <p className="text-gray-400">Artists</p>
           </div>
-          <div className="flex gap-24 items-center">
+          <div className="flex gap-3 md:gap-24 items-center">
             <p className="text-gray-400">Change</p>
-            <p className="text-gray-400">Volume</p>
+            <p className="text-gray-400 hidden md:flex" >Volume</p>
           </div>
         </div>
 
-        <div className="w-full flex flex-col gap-2">
+        <div className="w-full flex flex-col gap-5 mt-10">
           {cardss.map((card, index) => (
-            <div key={index} className="px-10 py-5 flex justify-between items-center mt-10 bg-gray-600 rounded-3xl">
-              <div className="flex gap-10 items-center">
+            <div key={index} className="px-5 md:px-10 md:py-5 py-2 md:gap-10 flex justify-between items-center bg-gray-600 rounded-3xl">
+              <div className="flex gap-2 md:gap-10 items-center">
                 <p className="text-white">{index + 1}</p>
-                <Image src={card.image} className="w-20 h-20 rounded-full" alt="profile image"/>
-                <p className="text-white font-WorkSans text-2xl">{card.name}</p>
+                <Image src={card.image} className=" w-10 h-10 md:w-20 md:h-20 rounded-full" alt="profile image"/>
+                <p className="text-white font-WorkSans text-[16px] md:text-2xl">{card.name}</p>
               </div>
-              <div className="flex gap-24 items-center font-SpaceMono">
+              <div className="flex gap-2 md:gap-24 items-center font-SpaceMono">
                 <p className="text-green-400">+ 1.60%</p>
-                <p className="text-white">12.4 ETH</p>
+                <p className="text-white hidden md:flex">12.4 ETH</p>
               </div>
             </div>
           ))}

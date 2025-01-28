@@ -7,7 +7,7 @@ import {RocketLaunch} from "@/assets/img/icons/index"
 import Image from "next/image";
 
 
-export const cardss = [
+ const cardss = [
     {
         name: "MoonDancer",
         image: Avatar1,
